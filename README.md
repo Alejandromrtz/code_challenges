@@ -32,6 +32,17 @@ reverseString("hello");
 ---------------------------------------------------------------------------------------------
 EASY
 
+"Factorialize a Number"
+
+function factorialize(num) {
+  let number = 1;
+  for (let i = 2; i <= num; i++) {
+    number *= i;
+  }
+  return number;
+}
+
+factorialize(5);
 
 
 
